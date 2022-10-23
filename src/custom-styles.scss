@@ -1,0 +1,37 @@
+:root{
+	--cx-color-dark:#44B2E7 !important;
+	--cx-color-primary:#325AA6 !important  ;
+}
+
+header .SiteContext:after{
+	content:unset !important;
+}
+header .SiteLinks{
+	--cx-display:none !important;
+}
+
+
+.SiteLogo{
+	width: 155px !important;
+}
+
+
+cx-searchbox label{
+	max-width: 100% !important;
+}
+
+
+
+cx-searchbox label{
+	width: unset  !important;
+	min-width: unset  !important;
+}
+
+cx-navigation-ui{
+	justify-content: flex-end !important;
+}
+
+header .SearchBox{
+	width:100% !important;
+	margin-top:0 !important;
+}
